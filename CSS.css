@@ -1,0 +1,41 @@
+body{
+    background-color: turquoise;
+}
+div{
+    margin: 10px;
+    border: 1px solid;
+    text-align: center;
+    align-content: center;
+}
+.container{
+    background-color: red;
+    height: max-content;
+    width: max-content;
+}
+.content{
+    background-color: gray;
+    width: 300px;
+    height: 300px;
+}
+#D1{
+    background-color: cadetblue;
+    width: 300px;
+    height: 300px;
+    border: 5px solid;
+    border-style: dotted none;
+    border-color: burlywood;
+    margin: auto;
+}
+#D2{
+    display: inline;
+}
+#D3, #D4{
+    display: grid;
+}
+#D3{
+    margin: 50px;
+    padding: 10px;
+    border: 5px solid;
+    border-style: inset none none inset;
+    border-color: yellow;
+}
